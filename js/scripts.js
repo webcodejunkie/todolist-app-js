@@ -27,4 +27,6 @@ function newTodoItem(){
     li.append(completedElement);
     $('.todo-list').append(li);
   }
+  $('.todo-list').sortable();
+  $('.completed-list').sortable();
 }
