@@ -17,7 +17,6 @@ function newTodoItem(){
     let completedElement = $('<span class="complete_element">Complete</span>');
     completedElement.on('click', function() {
       li.appendTo('.completed-list');
-      li.addClass('.animate-fadeIn');
       completedElement.remove();
 
 
