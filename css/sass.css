@@ -1,0 +1,73 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #89ff81; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  background-color: #89ff81;
+  font-size: 21px; }
+
+ol {
+  list-style: none; }
+
+.delete_element {
+  margin: 1rem;
+  background-color: #ff2121;
+  color: white;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  padding: 5px;
+  box-shadow: 1px 1px 4px;
+  transition: 1s; }
+  .delete_element:hover {
+    transition: 1s;
+    opacity: .7;
+    cursor: pointer; }
+
+.complete_element {
+  margin: 1rem;
+  background-color: #007eff;
+  color: white;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  padding: 5px;
+  box-shadow: 1px 1px 4px;
+  transition: 1s; }
+  .complete_element:hover {
+    transition: 1s;
+    opacity: .7;
+    cursor: pointer; }
+
+form, .todo-items {
+  padding: 20px; }
+
+#add-todo {
+  padding: 2px;
+  margin-top: 5px; }
+
+.main_container {
+  background-color: aliceblue;
+  position: absolute;
+  width: 100%;
+  height: 80%; }
+
+.todo-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.title_header {
+  background-color: #89ff81; }
+
+.completed-list {
+  color: red; }
+
+/*# sourceMappingURL=sass.css.map */
